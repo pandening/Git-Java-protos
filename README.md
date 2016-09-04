@@ -16,3 +16,8 @@ hdfs-client-simple
 ```
 you can use this apis to invoke the hdfs~
 ```
+Jredis-demo
+-------------------------
+```
+the Jredis demo.test to invoke the redis server.
+```

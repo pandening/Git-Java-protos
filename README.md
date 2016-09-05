@@ -26,3 +26,8 @@ Spring-demo
 ```
 the simple usage of spring.
 ```
+Mybatis-demo
+--------------------------
+```
+a simple demo of mybatis(CRUD with mysql)
+```

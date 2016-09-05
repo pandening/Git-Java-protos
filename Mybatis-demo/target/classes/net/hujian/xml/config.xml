@@ -15,5 +15,8 @@
     <mappers>
         <mapper resource="net/hujian/xml/mymapper.xml"/>
         <mapper class="net.hujian.mybatis.CRUDBYNote"/>
+        <mapper resource="net/hujian/xml/tc.xml"/>
+        <mapper resource="net/hujian/xml/tcs.xml"/>
+        <mapper resource="net/hujian/xml/procedure.xml"/>
     </mappers>
 </configuration>

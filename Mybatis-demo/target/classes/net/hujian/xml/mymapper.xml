@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.hujian.xml.mymapper">
+    <select id="getInfo" parameterType="int"
+            resultType="net.hujian.mybatis.Info">
+        select * from info where id=#{id}
+    </select>
+    <!--insert an info-->
+    <insert id="insertInfo" parameterType="net.hujian.mybatis.Info">
+        insert into info(name,age,school) values(#{name},#{age},#{school})
+    </insert>
+    <!--remove an info-->
+    <delete id="deleteInfo" parameterType="int">
+        delete from info where id=#{id}
+    </delete>
+    <!--update-->
+    <update id="updateInfo" parameterType="net.hujian.mybatis.Info">
+        update info set name=#{name},age=#{age},school=#{school} where id=#{id}
+    </update>
+    <!--query all-->
+    <select id="getAll" resultType="net.hujian.mybatis.Info">
+        select * from info
+    </select>
+</mapper>

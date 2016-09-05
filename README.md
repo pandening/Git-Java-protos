@@ -21,3 +21,8 @@ Jredis-demo
 ```
 the Jredis demo.test to invoke the redis server.
 ```
+Spring-demo
+--------------------------
+```
+the simple usage of spring.
+```
